@@ -162,7 +162,7 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 
 - 我该如何刻录 FreeBSD 镜像到 U 盘？
 
-Windows 上的刻录工具应首选 **Rufus**，Linux 直接使用 `dd` 命令即可。rufus 下载地址：[https://rufus.ie/zh](https://rufus.ie/zh)
+Windows 上的刻录工具应首选 **Rufus**，Linux 直接使用 `dd` 命令即可。Rufus 下载地址：[https://rufus.ie/zh](https://rufus.ie/zh)
 
 > **警告**
 >
