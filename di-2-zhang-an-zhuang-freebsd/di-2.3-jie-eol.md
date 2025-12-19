@@ -10,7 +10,7 @@
 >请依次检查如下列表：
 >
 >- 你是普通家用电脑吗？
-> - 处理器是 intel 或 amd？
+> - 处理器是 Intel 或 AMD？
 >- 是否关闭了 BIOS 里的安全启动（Secure Boot）？
 >- 是否从 <https://freebsd.org> 下载的镜像？
 > - 是否下载了最新版本的 RELEASE 镜像？
