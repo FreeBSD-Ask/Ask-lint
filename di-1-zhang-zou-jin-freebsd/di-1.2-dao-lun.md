@@ -1,8 +1,5 @@
 # 1.2 FreeBSD 导论
 
-
-
-
 ## FreeBSD 版本概述
 
 已知 FreeBSD 有如下版本类型（或开发阶段）：alpha、beta、rc、release、current、stable。
