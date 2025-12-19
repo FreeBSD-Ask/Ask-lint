@@ -251,7 +251,7 @@ FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连�
 - 集成了标准 Unix DAC、ACL、TrustedBSD MAC 安全框架（基于 POSIX®.1e 草案的安全扩展），参见 [wiki TrustedBSD](https://wiki.freebsd.org/TrustedBSD/)
 - 集成 W^X 策略，参见 [Implement enforcing write XOR execute mapping policy.](https://reviews.freebsd.org/D28050)
 - 默认启用了内核和用户空间的 PIE 和 ASLR，参见 [Enable ASLR by default for 64-bit executables.](https://reviews.freebsd.org/D27666)
-- FreeBSD 通过了 National Institutes of Standards and Technology（NIST，美国国家标准及技术研究所）安全软件开发框架（SSDF）认证，参见 [FreeBSD Foundation Announces SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/)
+- FreeBSD 通过了 National Institute of Standards and Technology（NIST，美国国家标准及技术研究所）安全软件开发框架（SSDF）认证，参见 [FreeBSD Foundation Announces SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/)
 - 实现了 FreeBSD 14 CIS 基准。参见 [New CIS® FreeBSD 14 Benchmark: Secure Your Systems with Expert-Guided Best Practices](https://freebsdfoundation.org/blog/new-cis-freebsd-14-benchmark-secure-your-systems-with-expert-guided-best-practices/)
 - 正在实现 FreeBSD 的零信任构建，参见 Sovereign Tech Agency 相关赞助
 - 基于 GEOM 框架的全盘加密（含 ZFS、Swap）方案
