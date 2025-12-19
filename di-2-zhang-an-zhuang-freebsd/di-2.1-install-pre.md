@@ -153,7 +153,7 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 
 >**技巧**
 >
->U 盘安装最好使用 `-img` 或 `-img.xz`。因为 `.iso` 镜像没做 Hybrid 混合启动，写入 U 盘会产生错误。见 [FreeBSD -.iso files not support written to USB drive](https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=236786)。
+>U 盘安装最好使用 `-img` 或 `-img.xz`。因为 `.iso` 镜像做的 Hybrid 混合启动不完全符合 UEFI 规范，写入 U 盘会产生错误。见 [FreeBSD -.iso files not support written to USB drive](https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=236786)。
 >
 >
 >只有当使用 **光盘/虚拟机** 安装时才应选用 `iso` 结尾的镜像。
