@@ -102,7 +102,7 @@ Multics 意图创造强悍的新软件和比肩 IBM 7094 功能更丰富的新�
 
 他需要写三个程序，每周写一个：创建代码的编辑器，将代码转换为 PDP-7 能运行的机器语言汇编器，再加“内核的外层——操作系统就完成了”。
 
-新的 PDP-7 操作系统编写没多时，Thompson 和几个同事讨论，当时新系统还没有名字，当时它被命名为“UnICS”（Uniplexed Information and Computing Service，非复用信息和计算机服务），UnICS 最后改名为 **UNIX**，这个名字更加方便记忆。
+新的 PDP-7 操作系统开发不久后，Thompson 和几位同事讨论，当时系统尚未命名，最初称为“UnICS”（Uniplexed Information and Computing Service，非复用信息和计算机服务），后来改名为 UNIX，更易于记忆。
 
 ## GNU 与自由软件运动
 
