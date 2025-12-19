@@ -5,21 +5,21 @@
 
 ## FreeBSD 版本概述
 
-已知 FreeBSD 有如下版本（或阶段）：alpha、rc、beta、release、current、stable。
+已知 FreeBSD 有如下版本（或阶段）：Alpha、RC、Beta、Release、Current、Stable。
 
-**release** 版本是适用于生产环境的，即一般意义上的 **稳定版** 或者说 LTS。而 ***stable*** 和 ***current*** 都是 **开发分支**，都是 **不稳定的**（稳定与不稳定是相对的，[Netflix 几乎所有节点都运行着 **current**](https://freebsdfoundation.org/netflix-case-study/)），一般情况下不建议将其用于生产环境。
+Release 版本适用于生产环境，即一般意义上的 **稳定版** 或 **LTS**。而 Stable 和 Current 都是 **开发分支**，属于 **不稳定分支**（稳定与不稳定是相对的，[Netflix 几乎所有节点都运行着 Current](https://freebsdfoundation.org/netflix-case-study/)），一般情况下不建议用于生产环境。
 
 >**注意**
 >
->FreeBSD 的 ***stable*** 与一般 Linux 发行版的“稳定版”之概念并不一致，反而是一种 **不稳定** 的“开发版”。
+>FreeBSD 的 ***Stable*** 与一般 Linux 发行版的“稳定版”概念并不一致，实际上是一种 **不稳定** 的“开发版”。
 >
 >FreeBSD 的 ***stable*** 的真实意思是该分支的 ABI（Application Binary Interface，应用程序二进制接口）是稳定的。
 >
 > ——参见 [FreeBSD Glossary STABLE](https://wiki.freebsd.org/Glossary#STABLE)
 
-alpha 是 current 进入 release 的第一步。具体过程是 current --> alpha（进入 stable 分支）--> beta --> rc --> release。
+Alpha 是 Current 进入 Release 的第一步。具体过程为 Current --> Alpha（进入 Stable 分支）--> Beta --> RC --> Release。
 
-current 相对稳定后（即 MFC 最短三天，MFC 即 `Merge From Head`，类似向后移植 `backporting`）会推送到 stable，但是不保证二者没有大的 bug。参见 [FreeBSD Release Engineering](https://docs.freebsd.org/en/articles/freebsd-releng/)。
+Current 相对稳定后（即 MFC 最短三天，MFC 即 Merge From Head，类似向后移植 backporting）会推送到 Stable，但不保证二者没有重大 Bug。参见 [FreeBSD Release Engineering](https://docs.freebsd.org/en/articles/freebsd-releng/)。
 
 
 >**警告**
@@ -34,7 +34,7 @@ current 相对稳定后（即 MFC 最短三天，MFC 即 `Merge From Head`，类
 
 >**注意**
 >
->只有 alpha、rc、beta 和 release（[且是一级架构](https://www.freebsd.org/platforms/)）才能使用命令 `freebsd-update` 更新系统，其余版本系统均需要通过源代码编译的方式（或使用二进制的 pkgbase）更新系统。
+>只有 alpha、rc、beta 和 release（[且是一级架构](https://www.freebsd.org/platforms/)）才能使用命令 `freebsd-update` 更新系统，其余版本需通过源代码编译或使用二进制的 pkgbase 更新。
 >
 >FreeBSD 开发计划准备删除命令 `freebsd-update`，一律改用 pkgbase。
 >
@@ -69,7 +69,7 @@ FreeBSD 项目（FreeBSD Project）致力于提供一款真正的自由软件，
 
 FreeBSD 项目历史悠久，其使用的版本控制工具历经了 CVS、SVN、Git。目前使用 Git 进行协作开发。
 
-FreeBSD 项目的存储库分为三个：freebsd src（源代码）、freebsd ports（Port 软件移植）、freebsd doc（文档）。三个项目地位相等。
+FreeBSD 项目的存储库分为三个：freebsd-src（源代码）、freebsd-ports（Ports 软件移植）、freebsd-doc（文档）。三个项目地位平等。
 
 ### FreeBSD 基金会
 
@@ -81,7 +81,7 @@ FreeBSD 基金会是美国科罗拉多州博尔德县的一家 501(c)3 非营利
 
 FreeBSD 项目通过网络远程开发。
 
-FreeBSD 社区由来自全世界各地的开发者和用户构成。FreeBSD 社区并不是一个法律实体，也无固定办事处。FreeBSD 社区不仅仅是英文世界的声音，我们还有中文社区、俄语社区、韩语社区、日语社区等。
+FreeBSD 社区由来自全世界各地的开发者和用户构成。FreeBSD 社区并不是一个法律实体，也无固定办事处。FreeBSD 社区不仅是英文社区，还有中文、俄语、韩语、日语等社区。
 
 ### 提交者
 
@@ -89,7 +89,7 @@ FreeBSD 社区由来自全世界各地的开发者和用户构成。FreeBSD 社�
 
 ### FreeBSD 核心小组
 
-FreeBSD 核心小组是 FreeBSD 项目的最高领导机关，共计 9 人，FreeBSD 核心小组采取集体领导制度，每位成员分管不同的子项目。FreeBSD 核心小组负责授予或撤销提交者权限及账户、执行冲突守则（CoC）、管理项目子团队等。
+FreeBSD 核心小组是 FreeBSD 项目的最高领导机构，共 9 人，采取集体领导制度，每位成员分管不同子项目。FreeBSD 核心小组负责授予或撤销提交者权限及账户、执行冲突守则（CoC）、管理项目子团队等。
 
 FreeBSD 核心小组选举每两年举行一次，可以连选连任。只有在过去 12 个月内有过提交的提交者（视为活跃提交者）才拥有选举权和被选举权。活跃开发者可以表决罢免 FreeBSD 核心小组成员。此外，核心团队还负责招募新的核心团队成员，以替代离任的成员。
 
@@ -121,7 +121,7 @@ FreeBSD 核心小组成员并不直接从中获取任何利益，同样也都是
 
 目前社区共识和普遍的读法是：/ˌfriːˌbiːɛsˈdiː/，即读作“Free（/friː/）+ B（/biː/）+ S（/ɛs/）+ D（/diː/）”，即类似于“福瑞/必/哎司/地”。
 
-Free 和三个字母 B、S、D 分别分开读——先说 Free 这个完整的词，再 B、S、D 逐字母拼读。
+Free 和三个字母 B、S、D 分别读——先读 Free，再逐字母拼读 B、S、D。
 
 一般不会把 BSD 或 FreeBSD 视作一个词语连读。不会将其读作“百思得”或“福瑞/百思德”（~~FreeBSD 基金会在中国大陆注册商标的机构中文翻译是“福瑞百思德基金会”~~）。
 
@@ -133,9 +133,9 @@ FreeBSD 不是 Linux。FreeBSD 也不是 UNIX 的克隆产物。FreeBSD 是一�
 
 FreeBSD 这个词语由两部分构成，即“Free”和“BSD”。
 
-BSD 最初是由加州大学伯克利分校（University of California, Berkeley）所开发的，意为 `Berkeley Software Distribution`（伯克利软件发行版）。
+BSD 最初由加州大学伯克利分校（University of California, Berkeley）开发，意为 `Berkeley Software Distribution`（伯克利软件发行版）。
 
-Free 则代表 Liberty 式自由和免费两种含义。
+Free 则包含自由（Liberty）和免费（Gratis）两种含义。
 
 FreeBSD 日为 6 月 19 日。FreeBSD 基金会和社区在这天庆祝 FreeBSD 的生日。——[Join us to celebrate FreeBSD Day!](https://freebsdfoundation.org/freebsd-day/)
 
@@ -160,11 +160,11 @@ FreeBSD 日为 6 月 19 日。FreeBSD 基金会和社区在这天庆祝 FreeBSD 
 >③ 如果把所有替换下来的组件拼凑起来，组成一艘新船，这艘船是不是忒修斯之船？
 
 
-BSD 操作系统并非复制品，而是 AT&T 研究 UNIX（Research Unix）操作系统的开源衍生版本，也是现代 UNIX® System V 的祖先。在 4.4BSD 以前，BSD 全称为 BSD UNIX。
+BSD 操作系统并非复制品，而是 AT&T Research Unix 操作系统的开源衍生版本，也是现代 UNIX® System V 的先驱。在 4.4BSD 以前，BSD 全称为 BSD UNIX。
 
 ![](../.gitbook/assets/bsd-unix.png)
 
-最初，Unix 是 `AT&T` 开发的操作系统，可以获取源代码，但并非开源。在 20 世纪 70 年代末，伯克利大学的计算机系统研究小组（Computer Systems Research Group，CSRG）开始对 Unix 进行深入研究，并为其开发了大量用户空间的程序，形成了名为 BSD（Berkeley Software Distribution，伯克利软件套件）的新系统。随着时间推移，BSD 系统逐渐发展，加入了许多创新，比如实现了 TCP/IP 协议栈。尽管 Unix 内核经历了多个版本的演变，但到了 90 年代，Net/2 版本发布后，Unix 内核中的 AT&T 代码已经被完全替换，成为了一款没有专利代码的系统。BSD 系统逐渐演化成为 4.2BSD，BSD 4.4-lite……进而成为了 386BSD。
+最初，Unix 是 `AT&T` 开发的操作系统，用户可获取源代码，但并非开源。在 20 世纪 70 年代末，伯克利大学的计算机系统研究小组（Computer Systems Research Group，CSRG）开始对 Unix 进行深入研究，并为其开发了大量用户空间的程序，形成了名为 BSD（Berkeley Software Distribution，伯克利软件套件）的新系统。随着时间推移，BSD 系统逐渐发展，加入了许多创新，比如实现了 TCP/IP 协议栈。尽管 Unix 内核经历了多个版本的演变，但到了 90 年代，Net/2 版本发布后，Unix 内核中的 AT&T 代码已经被完全替换，成为了一款没有专利代码的系统。BSD 系统逐渐演化成为 4.2BSD，BSD 4.4-lite……最终发展为 386BSD。
 
 在此过程中，BSD 和 AT&T 之间的关系发生了变化，最终引发了法律争议，导致 BSD 系统的分裂。1993 年，BSD 的核心代码分裂为两个主要的项目：NetBSD 和 FreeBSD。1996 年，OpenBSD 从 NetBSD 中复刻出来；2003 年，DragonFlyBSD 从 FreeBSD 中复刻出来。
 
@@ -203,9 +203,9 @@ BSD 操作系统并非复制品，而是 AT&T 研究 UNIX（Research Unix）操�
 
 如果你想选择一款在大版本更新后也不怎么影响日常工作的系统，而不是每天都在和操作系统斗智斗勇，那么 FreeBSD 值得信赖。
 
-FreeBSD 配置文件和系统组件不会 **变来变去的**，这在大版本变动时尤为突出。FreeBSD 也谨慎对待 **破坏性变化**（Breaking change），FreeBSD 要求在大版本内保持 ABI 的稳定。
+FreeBSD 配置文件和系统组件不会 **频繁变化**，这在大版本变动时尤为突出。FreeBSD 也谨慎对待 **破坏性变化**（Breaking change），FreeBSD 要求在大版本内保持 ABI 的稳定。
 
-FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连贯性和稳定性，轻而易举地就可以实现大版本间的迁移。FreeBSD 上软件的版本都是可以滚动变化的，不会锁定如 Python 版本等。
+FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连贯性和稳定性，轻而易举地就可以实现大版本间的迁移。FreeBSD 上的软件版本可以滚动更新，不会锁定特定版本（如 Python 等）。
 
 ### 选择 FreeBSD 的一般原因
 
@@ -237,8 +237,8 @@ FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连�
 - Jail 与 bhyve 虚拟化，不需要额外安装和维护底层虚拟化堆栈。也不需要为每个实例启动完整的操作系统内核和用户空间，节约系统资源。
 - 传统的 BSD INIT 引导，回归简单，回归真实可见的纯文本。
 - DTrace 框架与 GEOM 存储框架。
-- Linux 二进制兼容层，可运行 Linux 软件。且软件运行速度并不逊色于 Linux。
-- FreeBSD 的驱动在大致上与内核解耦合。
+- Linux 二进制兼容层可运行 Linux 软件。且运行速度并不逊色于 Linux。
+- FreeBSD 的驱动在大体上与内核解耦合。
 - FreeBSD 秉持人人自由开发的理念，目前 [你可以直接在 GitHub 上提交你的代码](https://github.com/freebsd/freebsd-src/pulls)，或者注册个账号在 <https://reviews.freebsd.org/> 进行大规模变更。
 - FreeBSD 的代码风格是 Kernighan & Ritchie 经典著作《C 程序设计语言》（*The C Programming Language*）中使用的风格。
 
@@ -273,14 +273,14 @@ FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连�
 
 #### 红帽公司控制下的 Linux 歧视
 
-不难发现 GNOME、Xorg（X11）、DBus、Systemd、PulseAudio、Wayland、PipeWire 目前这些主流的 Linux 项目其实都是由红帽公司（Red Hat）实际控制和施加影响的，而且关键在于他们大都难以完全适配其他类 Unix 操作系统。
+不难发现 GNOME、Xorg（X11）、DBus、Systemd、PulseAudio、Wayland、PipeWire 等主流 Linux 项目实际上受到红帽公司（Red Hat）的控制和影响，而且它们大多难以完全适配其他类 Unix 操作系统。
 
 
-显而易见：目前 FreeBSD 上的桌面部件的缺失很大程度上是因为他们过分依赖了 Linux 特有函数库，比如包含 `ip` 命令的 `iproute2` 软件包。更多的原因则是因为这些桌面或部件和 systemd 做了深度捆绑或者根本就是强制依赖，比如 `NetworkManager`。而 Samba 开发者则说“We use Linux, we develop for Linux, all others please submit patches”（我们使用 Linux，我们为 Linux 开发，其余系统的用户请提交补丁）FreeBSD 社区的人把这种行为叫做“Linuxism”（Linux 主义/Linux 歧视）。
+显而易见：目前 FreeBSD 上的桌面部件的缺失很大程度上是因为他们过分依赖了 Linux 特有函数库，例如包含 `ip` 命令的 `iproute2` 软件包。更多的原因则是因为这些桌面或部件和 systemd 做了深度捆绑或者根本就是强制依赖，比如 `NetworkManager`。而 Samba 开发者则说“We use Linux, we develop for Linux, all others please submit patches”（我们使用 Linux，我们为 Linux 开发，其余系统的用户请提交补丁）FreeBSD 社区的人把这种行为叫做“Linuxism”（Linux 主义/Linux 歧视）。
 
-这种行为会导致何种后果我们不得而知，但是这种程序愈来愈多了，而且有成为主流的趋势，甚至就连大部分开发者在开发程序（如 `todesk`）时也不再考虑兼容 init。甚至 Java 程序都丧失掉了他的可移植性，为什么 FreeBSD 上的 Eclipse 将近两年没有更新？就是因为这类 [捆绑问题](https://git.eclipse.org/r/c/platform/eclipse.platform.swt/+/163641/)。预计在将来所有可运行在 Linux 上的程序也将失去任何的可移植性。
+这种行为会导致何种后果我们不得而知，但是这种程序愈来愈多了，而且有成为主流的趋势，甚至就连大部分开发者在开发程序（如 `todesk`）时也不再考虑兼容 init。甚至 Java 程序也失去了可移植性，为什么 FreeBSD 上的 Eclipse 将近两年没有更新？就是因为这类 [捆绑问题](https://git.eclipse.org/r/c/platform/eclipse.platform.swt/+/163641/)。预计在将来所有可运行在 Linux 上的程序也将失去任何的可移植性。
 
-现在 FreeBSD 所面临的这种困境，将是未来所有人都要面对的。
+目前 FreeBSD 所面临的困境，可能是未来其他系统也会遇到的。
 
 - 选择 FreeBSD，就是选择保留一份自由软件的火种。
 - 选择 FreeBSD，就是选择保留下一份真正自由的操作系统。能够使开源事业继续坚持下去，并践行真正的 UNIX 哲学。
