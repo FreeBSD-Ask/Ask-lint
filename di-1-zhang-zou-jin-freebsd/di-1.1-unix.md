@@ -49,7 +49,7 @@ UNIX 认证查询网址：[The Open Group official register of UNIX Certified Pr
 >
 >作者 Henry Spencer 并未明确批评哪个操作系统，那么你认为，现在这句话更适合哪个常见的操作系统？为什么？
 
-Unix 哲学源于 UNIX 操作系统的开发，作者是 Ken Thompson。Unix 哲学一言以蔽之即大道至简（“keep it simple, stupid”）：
+Unix 哲学源于 UNIX 操作系统的开发实践，并由 Ken Thompson、Dennis Ritchie 等早期开发者共同塑造。Unix 哲学一言以蔽之，即大道至简（“keep it simple, stupid”）：
 
 
 - 小即美
