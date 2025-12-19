@@ -217,7 +217,7 @@ GNU's Not Unix，从 GNU 这个名字（GNU 不是 UNIX）你也能看出来 Lin
 具体地：
 
 - GNU/Linux 发行版 = Ubuntu、RHEL、Deepin、OpenSUSE……
-  - Ubuntu = Linux kernel + apt/dpkg + Gnome
+  - Ubuntu = Linux kernel + apt/dpkg + Gnome（默认桌面环境）
   - OpenSUSE = Linux kernel + libzypp/rpm + KDE
 
 > **注意**
