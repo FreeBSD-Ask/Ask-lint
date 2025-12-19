@@ -239,7 +239,7 @@ FreeBSD 不仅仅是 **在生命周期内不变**，大版本更新也具有连�
 - DTrace 框架与 GEOM 存储框架。
 - Linux 二进制兼容层，可运行 Linux 软件。且软件运行速度并不逊色于 Linux。
 - FreeBSD 的驱动在大致上与内核解耦合。
-- FreeBSD 秉持人人自由开发的理念，目前 [你可以直接在 Github 上提交你的代码](https://github.com/freebsd/freebsd-src/pulls)，或者注册个账号在 <https://reviews.freebsd.org/> 进行大规模变更。
+- FreeBSD 秉持人人自由开发的理念，目前 [你可以直接在 GitHub 上提交你的代码](https://github.com/freebsd/freebsd-src/pulls)，或者注册个账号在 <https://reviews.freebsd.org/> 进行大规模变更。
 - FreeBSD 的代码风格是 Kernighan & Ritchie 经典著作《C 程序设计语言》（*The C Programming Language*）中使用的风格。
 
 #### 安全原因
