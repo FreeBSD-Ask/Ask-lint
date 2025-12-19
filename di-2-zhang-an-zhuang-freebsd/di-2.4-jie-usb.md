@@ -188,7 +188,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ## 通过命令 diskpart 恢复
 
-打开 powershell：右键单击 Windows 图标，选中 Windows PowerShell（管理员）。
+打开 PowerShell：右键单击 Windows 图标，选中 PowerShell（管理员）。
 
 ### MBR 分区表
 
