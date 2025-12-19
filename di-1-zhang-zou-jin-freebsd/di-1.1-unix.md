@@ -195,9 +195,9 @@ Linus Torvalds 的硕士毕业论文是 [《Linux: A Portable Operating System�
 >
 >~~或许 Minix 才是世界上最流行的操作系统~~
 
-UNIX 标准 SUS 包含了 POSIX 标准，是其超集。Linux 实现了 POSIX 标准，但是未进行 [POSIX 认证](http://get.posixcertified.ieee.org/)。
+UNIX 标准 SUS 包含 POSIX 标准，是其超集。Linux 实现了 POSIX 标准，但未获得 [POSIX 认证](http://get.posixcertified.ieee.org/)。
 
-本质上说 Linux 是 UNIX 的一种仿制品或者说克隆产物（类似于人与机器人的关系）。
+从本质上说，Linux 是 UNIX 的一种仿制或克隆产物（类似于人与机器人的关系）。
 
 
 ### 狭义 Linux 是内核
@@ -228,9 +228,9 @@ GNU's Not Unix，从 GNU 这个名字（GNU 不是 UNIX）你也能看出来 Lin
 
 ## 什么是 Unix-like？
 
-Unix-like 即类 Unix，亦即一切符合 UNIX 标准的操作系统，基本遵守 POSIX 规范，而未获得第一节中所说的 UNIX 的认证。
+Unix-like 即类 Unix，指一切符合 UNIX 标准、基本遵守 POSIX 规范但未获得第一节中所述 UNIX 认证的操作系统。
 
-也就是说，除了 Windows，基本上世界上大多数操作系统都被叫做 Unix-like，其中就包括 Linux 和 FreeBSD。
+也就是说，除 Windows 外，世界上绝大多数操作系统都可称为 Unix-like，包括 Linux 和 FreeBSD。
 
 ## 附录：自由软件与开源软件语境下的典型误解与思想偏差探析
 
@@ -238,7 +238,7 @@ Unix-like 即类 Unix，亦即一切符合 UNIX 标准的操作系统，基本�
 
 ### 厘清“营利”和“盈利”
 
-这两个词语代表的意义是不同的，用法也不同。
+这两个词语的含义不同，用法也不同。
 
 - “盈利”：名词，扣除成本后获得的利润，也作赢利。《现代汉语词典》（ISBN：9787100124508，中国社会科学院语言研究所词典编辑室编，商务印书馆，第 7 版，第 1572 页）
 - “营利”：动词，谋求利润。《现代汉语词典》（ISBN：9787100124508，中国社会科学院语言研究所词典编辑室编，商务印书馆，第 7 版，第 1572 页）
