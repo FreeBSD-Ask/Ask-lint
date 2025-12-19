@@ -29,7 +29,7 @@
 
 >**注意**
 >
->FreeBSD 不支持 [安全启动](https://wiki.freebsd.org/SecureBoot)，在安装 FreeBSD 前请务必关闭安全启动（SecureBoot）；FreeBSD 也不支持 Fake RAID（伪 RAID），请将其控制器修改为 AHCI。
+>FreeBSD 不支持 [安全启动](https://wiki.freebsd.org/SecureBoot)，在安装 FreeBSD 前请务必关闭安全启动（Secure Boot）；FreeBSD 也不支持 Fake RAID（伪 RAID），请将其控制器修改为 AHCI。
 >
 >操作方法请咨询购机厂商技术售后。
 
