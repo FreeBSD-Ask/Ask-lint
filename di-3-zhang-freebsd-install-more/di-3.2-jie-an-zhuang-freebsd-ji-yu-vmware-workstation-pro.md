@@ -119,7 +119,7 @@
 
 或者
 
-```
+```sh
 # cd /usr/ports/x11-drivers/xf86-video-vmware/  && make install clean
 # cd /usr/ports/emulators/open-vm-tools/ && make install clean
 # cd /usr/ports/x11-drivers/xf86-input-vmmouse/  && make install clean
@@ -157,7 +157,7 @@
 
 编辑 `/usr/local/share/X11/xorg.conf.d/xorg.conf` 修改以下段落为（其他部分不需要动，保留原样即可）：
 
-```sh
+```ini
 Section "ServerLayout"
         Identifier     "X.org Configured"
         Screen          0  "Screen0" 0 0
@@ -194,7 +194,7 @@ EndSection
 在 FreeBSD 虚拟机中查看设置的文件夹：
 
 ```sh
-root@ykla:/home/ykla # vmware-hgfsclient
+# vmware-hgfsclient
 123pan
 ```
 
@@ -239,9 +239,9 @@ fusefs_load="YES"
 #### 查看共享文件夹
 
 ```sh
-root@ykla:/home/ykla # ls /mnt/hgfs/
+# ls /mnt/hgfs/
 Downloads
-root@ykla:/home/ykla # ls /mnt/hgfs/Downloads/
+# ls /mnt/hgfs/Downloads/
 零跑
 ```
 
