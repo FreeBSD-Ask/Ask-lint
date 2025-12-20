@@ -35,7 +35,7 @@ root       pts/0    3413e8b6b43f   3:00PM     - w
 
 - 查看当前所在路径
 
-`pwd` 即 `print work directory`，打印工作目录
+`pwd` 即 `print working directory`，打印工作目录
 
 ```sh
 $ pwd
