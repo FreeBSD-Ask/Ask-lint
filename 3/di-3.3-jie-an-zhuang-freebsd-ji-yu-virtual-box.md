@@ -8,7 +8,7 @@
 
 ## 安装设置
 
-以下演示基于 VirtualBox 7.1.4 和 Windows11 24H2。
+以下演示基于 VirtualBox 7.1.4 和 Windows 11 24H2。
 
 ![](../.gitbook/assets/vb1.png)
 
