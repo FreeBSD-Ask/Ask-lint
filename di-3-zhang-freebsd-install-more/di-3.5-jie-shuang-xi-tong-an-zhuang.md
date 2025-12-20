@@ -69,7 +69,7 @@
 ```sh
 # zfs list
 NAME  USED   AVAIL  REFER  MOUNTPOINT
-root  534M    130G   534M  nont
+root  534M    130G   534M  none
 ```
 
 进入系统后可以看到，仅有一个 `root` 数据集。可以手动将数据集改为自动安装的样子，亦可参照下文在安装时进入 shell 进行分区。
