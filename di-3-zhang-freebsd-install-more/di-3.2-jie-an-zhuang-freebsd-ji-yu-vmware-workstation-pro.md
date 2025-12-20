@@ -189,7 +189,7 @@ EndSection
 
 >**注意**
 >
->不必疑惑虚拟机的名字是 Windows 11，因为这是 Windows11 和 BSD 双系统虚拟机。
+>不必疑惑虚拟机的名字是 Windows 11，因为这是 Windows 11 和 BSD 双系统虚拟机。
 
 在 FreeBSD 虚拟机中查看设置的文件夹：
 
