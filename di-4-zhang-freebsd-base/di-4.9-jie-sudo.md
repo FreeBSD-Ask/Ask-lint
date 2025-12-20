@@ -27,7 +27,7 @@ OpenBSD 认为 sudo 软件配置复杂，代码质量差，漏洞太多，故自
 ### 查看 doas 安装后信息
 
 ```sh
-root@ykla:~ # pkg info -D doas
+# pkg info -D doas
 doas-6.3p12:
 On install:
 To use doas,
@@ -132,7 +132,7 @@ permit :wheel
 
 ### sudo 免密码
 
-在 `/usr/local/etc/sudoers.d/` 下新建两个文件 `username`（需要免密码的用户）和 `wheel`：
+在 `/usr/local/etc/sudoers.d/` 下新建两个文件 `username`（需要免密码的用户名）和 `wheel`：
 
 - 文件 `username` 内容如下：
 
