@@ -286,7 +286,7 @@ test2:$6$FkxPcs2y.Y8cxyuj$kVDoV1LC.IWKGlSitll3oLArF18aHQYID0JYE.TUuD0YFgba.c7MbG
 
 ### `pw groupdel` 命令
 
-用于删除组，
+用于删除组。
 
 示例：
 
