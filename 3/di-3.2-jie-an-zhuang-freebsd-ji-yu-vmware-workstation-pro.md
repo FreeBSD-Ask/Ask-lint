@@ -256,7 +256,7 @@ Downloads
 - [VMware shared folders](https://forums.freebsd.org/threads/vmware-shared-folders.10318/)，挂载方法参考此处
 
 
-## 故障排除与未竟事宜
+## 故障排除与未尽事宜
 
 > **注意**
 >
