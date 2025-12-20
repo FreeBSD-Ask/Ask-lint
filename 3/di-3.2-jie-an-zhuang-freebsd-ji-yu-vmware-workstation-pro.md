@@ -227,7 +227,7 @@ fusefs_load="YES"
 >请将 `123pan` 换成你自己的路径。
 
 ```sh
-.host:/123pan      /mnt/hgfs    fusefs  rw,mountprog=/usr/local/bin/vmhgfs-fuse,allow_other,failok 0
+.host:/123pan      /mnt/hgfs    fusefs  rw,mountprog=/usr/local/bin/vmhgfs-fuse,allow_other,failok 0 0
 ```
 
 检查（请务必执行，否则若写错了会卡在开机处）：
