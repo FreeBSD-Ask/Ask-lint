@@ -28,7 +28,7 @@
 
 ## 概述
 
-[腾讯云轻量应用服务器（即腾讯云轻量云）](https://cloud.tencent.com/product/lighthouse) 以及 [阿里云轻量应用服务器](https://www.aliyun.com/product/swas) 等机器都没有 FreeBSD 系统的支持，只能通过特殊的的方法自己暴力安装。
+[腾讯云轻量应用服务器（即腾讯云轻量云）](https://cloud.tencent.com/product/lighthouse) 以及 [阿里云轻量应用服务器](https://www.aliyun.com/product/swas) 等机器都没有 FreeBSD 系统的支持，只能通过特殊的方法自己暴力安装。
 
 
 >**警告**
