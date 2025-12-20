@@ -18,7 +18,7 @@
 │   ├── modules 旧时 pkg kmod 会安装至此，如 drm-kmod
 │   ├── efi EFI 挂载至此
 │   ├── dtb 非 ARM 应为空，设备树 DTB 文件
-│   └── defaults 存放默认内核的默认引导配置文件，是个详细地示例说明文件，参见 loader.conf(5)  
+│   └── defaults 存放默认内核的默认引导配置文件，是个详细的示例说明文件，参见 loader.conf(5)  
 ├── media 媒体文件挂载点，如 U 盘，光盘
 ├── mnt 用作临时挂载点的空目录
 ├── tmp 临时文件
