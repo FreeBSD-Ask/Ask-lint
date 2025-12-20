@@ -274,7 +274,7 @@ root@ykla:/home/ykla # ls /mnt/hgfs/Downloads/
 
 加载声卡后若仍然没有声音，请将音量拉满到 100% 再看一下。因为默认声音几乎微不可闻。
 
-## 附录：博通（broadcom）账号相关
+## 附录：博通（Broadcom）账号相关
 
 >**警告**
 >
