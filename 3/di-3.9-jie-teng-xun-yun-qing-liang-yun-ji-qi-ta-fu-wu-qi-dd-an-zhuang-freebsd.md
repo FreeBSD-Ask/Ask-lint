@@ -108,7 +108,7 @@ ssh 连接服务器后，使用 `kldload zfs` 加载 zfs 模块，然后运行 `
 # fetch http://ftp.freebsd.org/pub/FreeBSD/releases/amd64/14.2-RELEASE/MANIFEST # 下载所需文件
 ```
 
-## 故障排除与未竟事宜
+## 故障排除与未尽事宜
 
 ### 为何不能直接 dd？（错误示范，仅供说明，请勿执行）
 
