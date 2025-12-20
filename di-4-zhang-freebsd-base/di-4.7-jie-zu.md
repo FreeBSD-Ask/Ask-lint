@@ -97,7 +97,7 @@ Goodbye!
 
 ## `rmuser` 删除用户与 `passwd` 密码修改
 
-- `rmuser` 用于删除用户。与 `adduser` 命令一样，也是交互式的。该命令带参数 `-y` 时还能列出用户列表。
+- `rmuser` 用于删除用户。与 `adduser` 命令一样，也是交互式的。
 
 示例：
 
