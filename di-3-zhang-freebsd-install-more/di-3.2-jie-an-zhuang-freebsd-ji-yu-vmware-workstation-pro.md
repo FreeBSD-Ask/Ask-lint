@@ -247,7 +247,7 @@ root@ykla:/home/ykla # ls /mnt/hgfs/Downloads/
 
 ![FreeBSD VMware 共享文件夹](../.gitbook/assets/hgfs2.png)
 
-文件符合。
+文件内容一致。
 
 #### 参考文献
 
