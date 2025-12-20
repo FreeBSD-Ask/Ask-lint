@@ -5,7 +5,7 @@
 
 ### 最低硬件需求
 
-针对 AMD64 架构，14.2-RELEASE 版本在虚拟机上测得：
+针对 amd64 架构，14.2-RELEASE 版本在虚拟机环境中测得：
 
 - 硬盘：
   - 仅基本系统（安装后）：550MB
@@ -45,21 +45,21 @@
 
 >**注意**
 >
->推荐还是实际测试看看，因为该网站也会出现一些错误，比如将 LPDDR5 误认为 LPDDR4。
+>仍建议进行实际测试，因为该网站也可能出现错误，例如将 LPDDR5 误识别为 LPDDR4。
 
 ## 下载 FreeBSD 镜像
 
-首先我们打开 FreeBSD 项目官网：<https://www.freebsd.org/>：
+首先打开 FreeBSD 项目官网：<https://www.freebsd.org/>：
 
 ![FreeBSD 项目官网](../.gitbook/assets/do1.png)
 
-我们点击黄底红字 `Download FreeBSD`，会跳转如下：
+点击黄底红字的 `Download FreeBSD`，页面将跳转如下：
 
 ![下载 FreeBSD](../.gitbook/assets/do2.png)
 
 >**技巧**
 >
->随着时间的推移，当读者进行下载时，可能已经没有 14.2-RELEASE 版本了。你只需要选择最顶部的一个 `FreeBSD-X.Y-RELEASE`（这是推荐用于生产环境的版本）即可。其中，`X.Y` 应是一个比 `14.2` 更大的版本号。
+>随着时间的推移，当读者进行下载时，可能已经没有 14.2-RELEASE 版本了。你只需选择列表最顶部的 `FreeBSD-X.Y-RELEASE`（推荐用于生产环境）即可。其中，`X.Y` 应是一个比 `14.2` 更大的版本号。
 
 >**警告**
 >
@@ -107,10 +107,10 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 |CHECKSUM.SHA512-FreeBSD-14.2-RELEASE-amd64   |  本页所有镜像的 SHA512 校验值 |
 |FreeBSD-14.2-RELEASE-amd64-bootonly.iso	      | 网络安装镜像，安装时需联网 |
 |FreeBSD-14.2-RELEASE-amd64-bootonly.iso.xz	    | 压缩的网络安装镜像，安装时需联网|
-|FreeBSD-14.2-RELEASE-amd64-disc1.iso	 | cd 镜像    |
-|FreeBSD-14.2-RELEASE-amd64-disc1.iso.xz	|  压缩的 cd 镜像 |
+|FreeBSD-14.2-RELEASE-amd64-disc1.iso	 | CD 镜像    |
+|FreeBSD-14.2-RELEASE-amd64-disc1.iso.xz	|  压缩的 CD 镜像 |
 |FreeBSD-14.2-RELEASE-amd64-dvd1.iso	 | DVD 镜像，相比 CD 镜像包含了更多的软件包（pkg）   |
-|FreeBSD-14.2-RELEASE-amd64-dvd1.iso.xz	  | 压缩的 dvd 镜像，相比 cd 镜像多了一些没用的 pkg 包  |
+|FreeBSD-14.2-RELEASE-amd64-dvd1.iso.xz	  | 压缩的 DVD 镜像，相比 CD 镜像包含了更多软件包（pkg）  |
 |FreeBSD-14.2-RELEASE-amd64-memstick.img	| U 盘用的镜像（可以使用 Rufus 制作 U 盘启动盘）   |
 |FreeBSD-14.2-RELEASE-amd64-memstick.img.xz	 | 压缩的 U 盘用的镜像（无需解压缩，可以使用 Rufus 制作 U 盘启动盘）   |
 |FreeBSD-14.2-RELEASE-amd64-mini-memstick.img	 | U 盘用的网络安装镜像，安装时需联网 |
@@ -123,7 +123,7 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 
 > **注意**
 >
->FreeBSD 的所有安装介质（包括但不限于虚拟机镜像）默认均不提供图形界面（DVD 镜像虽包含更多软件包，但安装图形界面时可能遇到问题），需要用户自行安装配置。
+>FreeBSD 的所有安装介质（包括但不限于虚拟机镜像）默认均不提供图形界面，需要用户自行安装和配置（DVD 镜像虽包含更多软件包，但安装图形界面时仍可能遇到问题）。
 
 >**技巧**
 >
@@ -148,7 +148,7 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 
 >**技巧**
 >
->FreeBSD 14.1-RELEASE 的两个 ISO 镜像在 Ventoy 下测试通过（测试环境为英特尔三代处理器平台，UEFI 模式）。但仍不能排除出现兼容性问题的可能。若遇到引导问题，请首先尝试使用 `img` 镜像进行刻录。需要注意的是，15.0-CURRENT 开发版镜像经实测可能无法通过 Ventoy 引导。
+>FreeBSD 14.1-RELEASE 的两个 ISO 镜像在 Ventoy 环境下测试通过（测试环境为英特尔三代处理器平台，UEFI 模式）。但仍不能排除出现兼容性问题的可能。若遇到引导问题，请首先尝试使用 `img` 镜像进行刻录。需要注意的是，15.0-CURRENT 开发版镜像经实测可能无法通过 Ventoy 引导。
 
 
 >**技巧**
@@ -163,16 +163,16 @@ FreeBSD-14.2-RELEASE-amd64-mini-memstick.img.xz    107445036      2024-Nov-29 13
 
 - 我该如何刻录 FreeBSD 镜像到 U 盘？
 
-Windows 上的刻录工具应首选 **Rufus**，Linux 直接使用 `dd` 命令即可。Rufus 下载地址：[https://rufus.ie/zh](https://rufus.ie/zh)
+Windows 平台建议优先使用 ​**Rufus**​，Linux 平台可直接使用 `dd` 命令。Rufus 下载地址：[https://rufus.ie/zh](https://rufus.ie/zh)
 
 > **警告**
 >
-> **不建议**使用 FreeBSD 手册中提到的 win32diskimager，因为有时会出现校验错误（尽管实际文件校验值是正确的）。**应仅在 rufus 无效的情况下才使用 win32diskimager。** win32diskimager 下载地址 <https://sourceforge.net/projects/win32diskimager/files/Archive/>，点击 `win32diskimager-1.0.0-install.exe` 即可下载。
+> **不建议**使用 FreeBSD 手册中提到的 win32diskimager，因为有时会出现校验错误（尽管实际文件校验值是正确的）。**仅在 Rufus 无效的情况下才应使用 win32diskimager。** win32diskimager 下载地址 <https://sourceforge.net/projects/win32diskimager/files/Archive/>，点击 `win32diskimager-1.0.0-install.exe` 即可下载。
 
 
 >**技巧**
 >
->rufus 刻录镜像时，无需解压缩，直接选择 `-img.xz` 亦可进行启动盘制作的过程。
+>使用 Rufus 刻录镜像时，无需解压缩，直接选择 `-img.xz` 即可制作启动盘。
 >
 >![rufus](../.gitbook/assets/rufus.png)
 
