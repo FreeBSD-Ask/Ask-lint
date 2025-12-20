@@ -10,7 +10,7 @@ Qemu 是一款纯软件模拟的开源虚拟机，支持模拟不同的体系结
 
 Qemu 下载地址：
 
-[QEMU Binaries for Windows (64 bit)](https://qemu.weilnetz.de/w64/)，点击最下方倒数第二个文件即可。写作文本时，为 `qemu-w64-setup-20241220.exe`。大小为 174M。
+[QEMU Binaries for Windows (64 bit)](https://qemu.weilnetz.de/w64/)，点击最下方倒数第二个文件即可。写作本文时，为 `qemu-w64-setup-20241220.exe`。大小为 174M。
 
 下载后在 Windows 上安装 Qemu。
 
