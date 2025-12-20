@@ -776,7 +776,7 @@ FreeBSD 的设计更接近传统 UNIX 的行为。
 重启：
 
 - 重启命令和 Linux 一致，都是 `reboot`，但是参数不通用。
-- 在 FreeBSD 下 `roboot` 等同于 `shutdown -r now`
+- 在 FreeBSD 下 `reboot` 等同于 `shutdown -r now`
 
 >**注意**
 >
