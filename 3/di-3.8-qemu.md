@@ -106,7 +106,7 @@ cd /d "C:\Program Files\qemu"
 
 概述：
 
-- `^` 相当于 Windows 下的反斜杠。
+- `^` 在 Windows 批处理脚本中用作续行符，可将一条长命令拆成多行书写。
 - `smp` 为 CPU 数量
 - `cpu` 指定 CPU 架构
 - `m` 指定内存大小
