@@ -66,7 +66,7 @@
 
 rEFInd 支持多种图形化主题。
 
-本例以 Matrix-rEFInd（灵感来源于电影《黑客帝国》）主题为例进行说明说明。
+本例以 Matrix-rEFInd（灵感来源于电影《黑客帝国》）主题为例进行说明。
 
 项目地址为：[Matrix-rEFInd](https://github.com/Yannis4444/Matrix-rEFInd/)
 
