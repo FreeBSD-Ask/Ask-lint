@@ -6,7 +6,7 @@
 >
 >如果你无力解决，可以尝试在电商平台购买有偿服务来解决。
 
-当使用 Rufus、win32diskimager 等软件制作了 U 盘启动盘用于安装系统后，你会发现 U 盘的可见容量可能只有 31.9 MB（即 EFI）。
+当使用 Rufus、Win32DiskImager 等软件制作 U 盘启动盘用于安装系统后，你可能会发现 U 盘的可见容量只有 31.9 MB（即 EFI 分区）。
 
 ![使用 Rufus 制作的 U 盘启动盘](../.gitbook/assets/usb-efi.png)
 
@@ -14,7 +14,7 @@
 
 ## 使用 diskgenius 恢复 U 盘启动盘
 
-DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，但是免费功能已足够用。
+DiskGenius 官网：[https://www.diskgenius.cn/](https://www.diskgenius.cn/)。该软件包含收费功能，但免费功能已足够使用。
 
 ### 下载 DiskGenius
 
@@ -24,7 +24,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ![下载的 DiskGenius](../.gitbook/assets/usb-diskgenius.png)
 
-需要在桌面新建文件夹 `1`（即 `C:\Users\ykla\Desktop\1`），全选压缩包内所有文件，提取至新建的文件夹 `1`（即 `C:\Users\ykla\Desktop\1\DiskGenius`）。
+需要在桌面新建文件夹 `1`（即 `C:\Users\ykla\Desktop\1`），将压缩包内所有文件全选并提取至新建文件夹 `1` 中（即 `C:\Users\ykla\Desktop\1\DiskGenius`）。
 
 ![下载的 DiskGenius](../.gitbook/assets/usb-diskgenius2.png)
 
@@ -34,7 +34,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ### 启动 DiskGenius
 
-启动 DiskGenius，需要点击 `DiskGenius.exe`（即 `C:\Users\ykla\Desktop\1\DiskGenius\DiskGenius.exe`，你那里可能是 `DiskGenius`）才能启动。
+启动 DiskGenius 时，需要点击 `DiskGenius.exe`（路径如 `C:\Users\ykla\Desktop\1\DiskGenius\DiskGenius.exe`，你的路径可能有所不同）才能启动。
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius4.png)
 
@@ -44,11 +44,11 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ### 判断哪个是 U 盘
 
-判断哪个是你的 U 盘，一般我们可以通过 U 盘容量来判断。若不记得 U 盘容量，可查询购买记录或拔下 U 盘查看其外壳上标注的容量。
+判断哪个是你的 U 盘，通常可以通过 U 盘容量进行判断。若不记得 U 盘容量，可查询购买记录或拔下 U 盘查看其外壳上标注的容量。
 
-- 通过容量判断：64G U 盘一般在 Windows/Linux 中显示为 58G（macOS 中为 64G）。
+- 通过容量判断：64 GB 的 U 盘在 Windows/Linux 中通常显示为 58 GB，在 macOS 中显示为 64 GB。
 - 通过盘符判断：在下图中，你也可以通过“EFISYS(E:)”来判断（E 盘），这就是使用 Rufus 制作的 U 盘启动盘。
-- 通过 DiskGenius 显示的接口判断：在下图中，顶部的“硬盘 1 接口:USB”标识也表明这是 USB 设备，很可能就是目标 U 盘。
+- 通过 DiskGenius 显示的接口判断：顶部显示的“硬盘 1 接口:USB”标识表明这是 USB 设备，很可能就是目标 U 盘。
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius6.png)
 
@@ -66,20 +66,20 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius9.png)
 
-鼠标放到顶部空白区，右键单击，点击“建立新分区”。
+右键单击空白区域，选择“建立新分区”。
 
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius10.png)
 
-参数设置如下：文件系统选择 `exFAT`（通用性好，主流操作系统均支持读写，且无单文件4GB大小限制），并勾选“对齐到下列扇区数的整数倍”，选择“4096 扇区”（即实现4K对齐）。
+参数设置如下：文件系统选择 `exFAT`（通用性好，主流操作系统均支持读写，且不受单文件 4 GB 大小限制），勾选“对齐到下列扇区数的整数倍”，并选择“4096 扇区”（实现 4K 对齐）。
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius11.png)
 
-点击左上角的“保存更改”。
+点击左上角的“保存更改”按钮。
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius12.png)
 
-在确认后才选择“是”。
+确认后选择“是”。
 
 ![DiskGenius](../.gitbook/assets/usb-diskgenius13.png)
 
@@ -100,7 +100,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ## 使用傲梅分区助手恢复 U 盘启动盘
 
-使用思路与前述 DiskGenius 方法基本相同。
+使用方法与前述 DiskGenius 方法基本相同。
 
 ### 下载安装傲梅分区助手
 
@@ -118,7 +118,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ### 判断 U 盘设备
 
-可通过以下信息判断设备是否为U盘（若界面显示不全，可使用鼠标滚轮向下滚动）：
+可通过以下信息判断设备是否为 U 盘（若界面显示不全，可使用鼠标滚轮向下滚动）：
 
 ![傲梅分区助手](../.gitbook/assets/aomei3.png)
 
@@ -138,7 +138,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ![傲梅分区助手](../.gitbook/assets/aomei6.png)
 
-在确认对话框中，点击“确定”以执行“删除所有分区”操作。
+在确认对话框中点击“确定”，以执行“删除所有分区”操作。
 
 ![傲梅分区助手](../.gitbook/assets/aomei7.png)
 
@@ -165,7 +165,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ![傲梅分区助手](../.gitbook/assets/aomei11.png)
 
-将文件系统设置为“exFAT”，然后点击“确定”。
+将文件系统设置为“exFAT”，然后点击“确定”按钮。
 
 ![傲梅分区助手](../.gitbook/assets/aomei12.png)
 
@@ -188,7 +188,7 @@ DiskGenius 官网：<https://www.diskgenius.cn/>，该软件有收费功能，�
 
 ## 通过命令 diskpart 恢复
 
-打开 PowerShell：右键单击 Windows 图标，选中 PowerShell（管理员）。
+打开 PowerShell：右键单击 Windows 图标，选择“Windows PowerShell（管理员）”。
 
 ### MBR 分区表
 
@@ -239,7 +239,7 @@ DISKPART> active # 设置主分区 1 为活动分区
 
 DiskPart 将当前分区标为活动。
 
-DISKPART> ass letter=E # 挂载到 E 盘，你也可以拔出来再插进去
+DISKPART> ass letter=E # 挂载到 E 盘，你也可以拔出 U 盘后再插入
 
 DiskPart 成功地分配了驱动器号或装载点。
 ```
