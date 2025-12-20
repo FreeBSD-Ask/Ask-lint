@@ -100,7 +100,7 @@ cd /d "C:\Program Files\qemu"
     -netdev user,id=net,hostfwd=tcp::8022-:22 ^
     -bios "C:\Users\ykla\Desktop\fw_jump.elf" ^
     -kernel "C:\Users\ykla\Desktop\u-boot.bin" ^
-    -append “root=LABEL=rootfs” ^
+    -append "root=LABEL=rootfs" ^
     -nographic
 ```
 
