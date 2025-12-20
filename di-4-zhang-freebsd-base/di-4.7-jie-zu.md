@@ -116,7 +116,7 @@ Removing user (test2): home passwd.
 >
 >`export EDITOR=/usr/bin/ee` 可将编辑器换成更简单的 `ee`。
 
-常用参数：`-s`，用于登录环境
+常用参数：`-s`，用于修改登录 shell
 
 示例：
 
