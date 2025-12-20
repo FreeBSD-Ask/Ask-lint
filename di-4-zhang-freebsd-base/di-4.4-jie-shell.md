@@ -112,7 +112,7 @@ ping 163.com
 64 bytes from 59.111.160.244: icmp_seq=3 ttl=52 time=27.465 ms
 64 bytes from 59.111.160.244: icmp_seq=4 ttl=52 time=27.586 ms
 64 bytes from 59.111.160.244: icmp_seq=5 ttl=52 time=27.522 ms
-^C # 按 crtl + c 结束命令
+^C # 按 ctrl + c 结束命令
 --- 163.com ping statistics ---
 6 packets transmitted, 6 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 27.465/27.596/27.701/0.085 ms
