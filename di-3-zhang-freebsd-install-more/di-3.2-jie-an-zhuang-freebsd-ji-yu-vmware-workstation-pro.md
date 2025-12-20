@@ -220,7 +220,7 @@ fusefs_load="YES"
 
 ##### 自动挂载
 
-编辑 `/etc/fstab/`：写入：
+编辑 `/etc/fstab`：写入：
 
 >**注意**
 >
