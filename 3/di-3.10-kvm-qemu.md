@@ -181,7 +181,7 @@ mfsBSD 的 `root` 密码默认是 `mfsroot`。你可以使用 ssh 工具进行�
 
 待解决、待尝试。
 
-### VMWare、VirtualBox 无法按照此方法安装
+### VMware、VirtualBox 无法按照此方法安装
 
 鉴于 VirtualBox 可以选择虚拟化，选择为 `kvm` 可再次尝试。（笔者的机器无法引导，也许你能成功）
 
