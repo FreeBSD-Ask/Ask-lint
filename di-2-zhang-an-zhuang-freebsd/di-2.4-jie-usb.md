@@ -200,9 +200,9 @@ Microsoft DiskPart 版本 10.0.26100.1150
 Copyright (C) Microsoft Corporation.
 在计算机上: DESKTOP-M5P610N
 
-DISKPART> list disk # 列出所有磁盘，下图磁盘 1 没有 Gpt 标识，代表这可能是 MBR 分区表的磁盘
+DISKPART> list disk # 列出所有磁盘，下图磁盘 1 没有 GPT 标识，代表这可能是 MBR 分区表的磁盘
 
-  磁盘 ###  状态           大小     可用     Dyn  Gpt
+  磁盘 ###  状态           大小     可用     Dyn  GPT
   --------  -------------  -------  -------  ---  ---
   磁盘 0    联机              931 GB    41 MB        *
   磁盘 1    联机               57 GB  5120 KB
