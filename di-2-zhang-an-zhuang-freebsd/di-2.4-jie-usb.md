@@ -12,7 +12,7 @@
 
 这是一款 64GB 的 U 盘，因此我们往往需要将其恢复为普通 U 盘。
 
-## 使用 diskgenius 恢复 U 盘启动盘
+## 使用 DiskGenius 恢复 U 盘启动盘
 
 DiskGenius 官网：[https://www.diskgenius.cn/](https://www.diskgenius.cn/)。该软件包含收费功能，但免费功能已足够使用。
 
