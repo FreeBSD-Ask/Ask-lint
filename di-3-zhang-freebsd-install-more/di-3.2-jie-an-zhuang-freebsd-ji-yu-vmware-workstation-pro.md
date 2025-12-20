@@ -3,7 +3,7 @@
 
 ## 视频教程
 
-- [001-WIndows11 安装 VMware17](https://www.bilibili.com/video/BV1Qji2YLEgS)
+- [001-Windows 11 安装 VMware 17](https://www.bilibili.com/video/BV1Qji2YLEgS)
 
 ## 镜像下载
 
